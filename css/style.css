@@ -1,0 +1,249 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+}
+
+.sidebar {
+  background-color: #c69963;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+}
+
+.realtors {
+  background-color: #101d2c;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+}
+
+/*# sourceMappingURL=style.css.map */
