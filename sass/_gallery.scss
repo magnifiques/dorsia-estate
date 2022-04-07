@@ -1,1 +1,6 @@
 @use './base';
+
+.gallery {
+    background-color: crimson;
+    grid-column: full-start / full-end;
+}

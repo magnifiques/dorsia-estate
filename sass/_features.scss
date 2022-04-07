@@ -1,1 +1,6 @@
 @use './base';
+
+.features {
+    background-color: darkblue;
+    grid-column: center-start / center-end;
+}

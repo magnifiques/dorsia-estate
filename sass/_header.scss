@@ -1,1 +1,6 @@
 @use './base';
+
+.header {
+    background-color: darkviolet;
+    grid-column: full-start / col-end 6;
+}

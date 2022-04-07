@@ -1,1 +1,6 @@
 @use './base';
+
+.footer {
+    background-color:steelblue;
+    grid-column: full-start / full-end;
+}
