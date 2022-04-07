@@ -1,6 +1,11 @@
 @use './base';
 
 .features {
-    background-color: darkblue;
     grid-column: center-start / center-end;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 15rem 0;
+    grid-gap: 6rem;
+
 }
