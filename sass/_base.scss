@@ -14,6 +14,24 @@ $color-grey-dark-2: #6D5D4B;
 $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
 
+//! Margin Bottom = mb 
+
+.mb-small {
+    margin-bottom: 2rem;
+}
+
+.mb-medium {
+    margin-bottom: 3rem;
+}
+
+.mb-large {
+    margin-bottom: 4rem;
+}
+
+.mb-largest {
+    margin-bottom: 8rem;
+}
+
 *,
 *::before,
 *::after {
