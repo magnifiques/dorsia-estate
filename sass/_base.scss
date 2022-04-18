@@ -32,6 +32,12 @@ $font-display: 'Josefin Sans', sans-serif;
     margin-bottom: 8rem;
 }
 
+
+//* Responsive Breakpoints
+
+$bp-largest: 75em; //? 1200px / 16px = 75
+$bp-large: 62.5em; //* 1000px /16px = 62.5 
+
 *,
 *::before,
 *::after {
@@ -41,7 +47,11 @@ $font-display: 'Josefin Sans', sans-serif;
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; //! 10px / 16px = 0.625
+
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 50%;
+    }
 }
 
 body {
@@ -58,4 +68,11 @@ body {
     grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] 
                            1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) 
                            [center-end] 1fr [full-end];
+    
+    @media only screen and (max-width: $bp-large) {
+        grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
+        grid-template-columns: [full-start] 1fr [center-start] 
+                               repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) 
+                               [center-end] 1fr [full-end];
+    }
 }
