@@ -4,4 +4,34 @@
     background-color: base.$color-primary;
     grid-row: 1 / -1;
     grid-column: sidebar-start / sidebar-end;
+
+    display: flex;
+    justify-content: center;
+}
+
+.btn-nav {
+    border: none;
+    border-radius: 0;
+
+    background-color: white;
+    height: 2px;
+    width: 4.5rem;
+    margin-top: 4.5rem;
+
+    &::before,
+    &::after {
+        background-color: white;
+        height: 2px;
+        width: 4.5rem;
+        content: "";
+        display: block;
+    }
+
+    &::before {
+        transform: translateY(-1.5rem);
+    }
+
+    &::after {
+        transform: translateY(1.3rem);
+    }
 }

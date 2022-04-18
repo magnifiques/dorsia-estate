@@ -172,6 +172,30 @@ body {
   background-color: #c69963;
   grid-row: 1/-1;
   grid-column: sidebar-start/sidebar-end;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-nav {
+  border: none;
+  border-radius: 0;
+  background-color: white;
+  height: 2px;
+  width: 4.5rem;
+  margin-top: 4.5rem;
+}
+.btn-nav::before, .btn-nav::after {
+  background-color: white;
+  height: 2px;
+  width: 4.5rem;
+  content: "";
+  display: block;
+}
+.btn-nav::before {
+  transform: translateY(-1.5rem);
+}
+.btn-nav::after {
+  transform: translateY(1.3rem);
 }
 
 .mb-small {
