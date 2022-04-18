@@ -3,4 +3,37 @@
 .header {
     background-color: darkviolet;
     grid-column: full-start / col-end 6;
+    background-image: linear-gradient(rgba(base.$color-secondary, 0.93),
+                      rgba(base.$color-secondary, 0.93)), 
+                      url('../img/hero.jpeg');
+    background-size: cover;
+    background-position: center;
+
+    display: grid;
+    grid-template-rows: 1fr min-content 6rem 1fr;
+    grid-template-rows: max-content;
+    grid-gap: 1.5rem;
+    padding: 8rem;
+    justify-content: center;
+
+    &__logo {
+        height: 3rem;
+        justify-self: center;
+    }
+
+    &__btn {
+        align-self: start;
+        justify-self: start;
+    }
+
+    &__seenOn-text {
+
+    }
+
+    &__seenOn-logos {
+
+        img {
+            height: 2.5rem;
+        }
+    }
 }
