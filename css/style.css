@@ -252,8 +252,8 @@ body {
   background-size: cover;
   background-position: center;
   display: grid;
-  grid-template-rows: 1fr min-content 6rem 1fr;
-  grid-template-rows: max-content;
+  grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
+  grid-template-columns: max-content;
   grid-gap: 1.5rem;
   padding: 8rem;
   justify-content: center;
@@ -266,8 +266,29 @@ body {
   align-self: start;
   justify-self: start;
 }
+.header__seenOn-text {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-column-gap: 1.5rem;
+  align-items: center;
+  font-size: 1.6rem;
+  color: #aaa;
+}
+.header__seenOn-text::before, .header__seenOn-text::after {
+  content: "";
+  height: 1px;
+  display: block;
+  background-color: currentColor;
+}
+.header__seenOn-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 3rem;
+  justify-items: center;
+}
 .header__seenOn-logos img {
   height: 2.5rem;
+  filter: brightness(70%);
 }
 
 .mb-small {
