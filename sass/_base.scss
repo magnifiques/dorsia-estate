@@ -37,6 +37,8 @@ $font-display: 'Josefin Sans', sans-serif;
 
 $bp-largest: 75em; //? 1200px / 16px = 75
 $bp-large: 62.5em; //* 1000px /16px = 62.5 
+$bp-medium: 50em; //! 800px / 16px = 50 
+$bp-small: 37.5em; //? 600px / 16px = 37.5
 
 *,
 *::before,
@@ -74,5 +76,10 @@ body {
         grid-template-columns: [full-start] 1fr [center-start] 
                                repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) 
                                [center-end] 1fr [full-end];
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        grid-template-rows: 6rem calc(60vh - 6rem);
+    
     }
 }
